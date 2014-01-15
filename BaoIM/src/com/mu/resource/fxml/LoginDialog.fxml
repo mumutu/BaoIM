@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root type="javafx.scene.layout.AnchorPane" prefHeight="300.0" prefWidth="250.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <VBox prefHeight="400.0" prefWidth="250.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <HBox prefHeight="50.0" prefWidth="250.0">
+          <children>
+            <Label fx:id="logindialog_title" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" rotate="0.0" text="Droplet" textFill="BLACK">
+              <font>
+                <Font name="Arial" size="20.0" />
+              </font>
+              <tooltip>
+                <Tooltip text="这是标题" />
+              </tooltip>
+            </Label>
+            <Button id="llogindialog_edit" mnemonicParsing="false" style="-fx-background-color:#def" text="编辑" />
+            <Button id="logindialog_min" mnemonicParsing="false" text="最小化" />
+            <Button id="logindialog_max" mnemonicParsing="false" text="最大化" />
+          </children>
+        </HBox>
+        <Separator focusTraversable="false" prefWidth="200.0" />
+        <Pane prefHeight="250.0" prefWidth="250.0">
+          <children>
+            <Label layoutX="46.0" layoutY="10.0" text="用户名">
+              <font>
+                <Font name="Arial" size="15.0" fx:id="x1" />
+              </font>
+              <textFill>
+                <Color blue="0.500" green="0.500" red="0.500" fx:id="x2" />
+              </textFill>
+            </Label>
+            <TextField layoutX="46.0" layoutY="39.0" prefHeight="28.0" prefWidth="150.0" />
+            <Label font="$x1" layoutX="46.0" layoutY="79.0" text="密码" textFill="$x2" />
+            <ToggleButton layoutX="49.0" layoutY="151.0" mnemonicParsing="false" prefHeight="27.962890625" prefWidth="55.0" text="隐身" />
+            <ToggleButton layoutX="142.0" layoutY="151.0" mnemonicParsing="false" prefHeight="27.962890625" prefWidth="55.0" text="自动" />
+            <PasswordField layoutX="46.0" layoutY="106.0" prefHeight="28.0" prefWidth="150.0" />
+            <Button layoutX="46.0" layoutY="208.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="150.00009999999747" text="登录" />
+          </children>
+        </Pane>
+      </children>
+    </VBox>
+  </children>
+</fx:root>

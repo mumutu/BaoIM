@@ -1,0 +1,13 @@
+/* 
+    Document   : Login.css
+    Created on : 2013-12-6, 10:45:37
+    Author     : luye66
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+    -fx-background-color: #ff33cc;
+}
+
